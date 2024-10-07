@@ -1,0 +1,49 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+body{
+    box-sizing: border-box;
+    background-color: lightblue;
+}
+.block-box{
+    display: block;
+    width: 300px;
+    height: 30px;
+    background-color: red;
+    border: 2px black solid; 
+}
+
+.inline-box{
+    display: inline;
+    width: 200px;
+    height: 100px;
+    background-color: green;
+    border: 2px black solid;
+}
+.block-shift{
+    position: relative;
+    /*toggle the css below this line using Ctrl + / */
+    /* left: 10px; */
+    /* refresh the relative.html page to see what happens */
+    /* add css to shift the block-box up by 20px */ 
+    
+    /* refresh the relative.html page to see what happens */
+}
+
+.inline-shift{
+    position: relative;
+    /*toggle the css below this line using Ctrl + / */
+    /* left: 10px; */
+    /* refresh the relative.html page to see what happens */
+    /* add css to shift the block-box down by 20px */  
+    /* refresh the relative.html page to see what happens */
+}
+.shift-margin{
+    position: relative;
+    /* toggle the line directly below and refresh the relative.html page to see what happens */
+    /* left: 20px; */
+
+    /* toggle the line above off, then toggle the line directly below and refresh the relative.html page to see what happens */
+    /* margin-left:20px; */
+}
